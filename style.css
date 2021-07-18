@@ -154,6 +154,37 @@ body{
 	left: -10px;
 }
 
+.Icon{
+	position: relative;
+	justify-content: space-between;
+	display: flex;
+	width: 92%;
+	top: -280px;
+	left: 5%;
+}
+
+.Icon div{
+	position: relative;
+	display: flex;
+
+}
+
+.Icon h4{
+	position: relative;
+	font-size: 22px;
+	margin-left: 20px;
+	width: 80%;
+}
+
+.Icon p{
+	font-size: 13px;
+}
+
+.Icon i{
+	font-size: 60px;
+	color: rgb(88, 25, 147);
+}
+
 footer{
 	position: relative;
 	display: flex;
