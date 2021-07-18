@@ -155,7 +155,50 @@ body{
 }
 
 footer{
+	position: relative;
+	display: flex;
 	background-color: rgb(88, 25, 147);
 	width: 100%;
 	height: 400px;
+}
+
+footer .Logo-footer{
+	position: relative;
+	text-align: right;
+	border: 5px solid black;
+	width: 30%;
+}
+
+
+footer .Info-footer{
+	position: relative;
+	text-align: center;
+	border: 5px solid black;
+	width: 40%;
+}
+
+footer .Info-footer h5{
+	position: relative;
+	font-size: 16px;
+	color: white;
+	width: 100%;
+
+}
+
+footer .Info-footer .Dirreccion{
+	position: relative;
+	justify-content: center;
+	display: flex;
+}
+
+footer .Info-footer .Dirreccion div{
+	position: relative;
+	display: flex;
+	margin-left: 50px;
+	left: -5%;
+	color: white;
+}
+
+footer h6{
+	color: white;
 }
