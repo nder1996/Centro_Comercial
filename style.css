@@ -185,6 +185,46 @@ body{
 	color: rgb(88, 25, 147);
 }
 
+.Paginacion{
+	position: relative;
+	text-align: center;
+	top: -240px;
+	width: 100%;
+}
+
+.Paginacion h1{
+	position: relative;
+	border-bottom: 5px solid black;
+	width: 50%;
+	left: 24%;
+}
+
+.nav-paginacion{
+	position: relative;
+	left: 79%;
+	top: -10px;
+}
+
+.img-efect{
+	position: relative;
+	display: flex;
+}
+
+.img-efect img{
+	position: relative;
+	width: 93%;
+}
+
+
+
+
+
+
+
+
+
+
+
 footer{
 	position: relative;
 	display: flex;
