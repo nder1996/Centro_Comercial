@@ -289,12 +289,13 @@ body{
 
 .card-info{
 	position: relative;
+	display: flex;
 	top: -200px;
-
 }
 
 .card{
 	box-shadow: 0 0 7px 1px silver;
+	margin-left: 20px;
 }
 
 .card a{
