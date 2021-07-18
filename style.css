@@ -199,6 +199,21 @@ body{
 	left: 24%;
 }
 
+.Paginacion .btn-afiliados{
+	position: relative;
+	text-decoration: none;
+	color: white;
+	background-color: rgb(88, 25, 147);
+	padding: 10px;
+}
+
+
+.Paginacion .btn-afiliados i{
+	position: relative;
+	padding: 10px;
+	font-size: 15px;
+}
+
 .nav-paginacion{
 	position: relative;
 	left: 79%;
@@ -214,11 +229,12 @@ body{
 	display: flex;
 }
 
-.img-efect img{
+.img-efect div{
 	position: relative;
-	width: 93%;
+	  transition: opacity 1.5s ease-in-out;
+	width: 53%;
 	cursor: pointer;
-	transition: opacity 1.5s ease-in-out;
+	margin-left: 20px;
 }
 
 
@@ -246,8 +262,45 @@ body{
 	background-image: url('../img-22.JPG');
 }
 
+#img-3{
+	position: relative;
+	background-image: url('../img-3.JPG');
+	width: 24%;
+	height: 295px;
+	top: 5px;
+}
+
+#img-3:hover{
+	background-image: url('../img-33.JPG');
+}
+
+#img-4{
+	position: relative;
+	background-image: url('../img-4.JPG');
+	width: 24%;
+	height: 295px;
+	top: 5px;
+}
+
+#img-4:hover{
+	background-image: url('../img-44.JPG');
+}
 
 
+.card-info{
+	position: relative;
+	top: -200px;
+
+}
+
+.card{
+	box-shadow: 0 0 7px 1px silver;
+}
+
+.card a{
+	text-decoration: none;
+	color: black;
+}
 
 
 footer{
@@ -262,6 +315,7 @@ footer .Logo-footer{
 	position: relative;
 	text-align: right;
 	width: 30%;
+
 }
 
 
