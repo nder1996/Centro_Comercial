@@ -165,7 +165,6 @@ footer{
 footer .Logo-footer{
 	position: relative;
 	text-align: right;
-	border: 5px solid black;
 	width: 30%;
 }
 
@@ -173,7 +172,6 @@ footer .Logo-footer{
 footer .Info-footer{
 	position: relative;
 	text-align: center;
-	border: 5px solid black;
 	width: 40%;
 }
 
@@ -199,6 +197,34 @@ footer .Info-footer .Dirreccion div{
 	color: white;
 }
 
+footer h5{
+	color: white;
+	font-size: 17px;
+	margin-bottom: 19px;
+}
+
 footer h6{
 	color: white;
+	font-size: 13px;
+}
+
+footer .img-london{
+	position: relative;
+	text-align: center;
+	background-color: white !important;
+	border-radius: 10px ;
+	width: 110%;
+	height: 270px;
+}
+
+footer .img-london h1{
+	position: relative;
+	color: rgb(84, 89, 95) !important;
+	font-size: 16px;
+}
+
+footer .img-london a{
+	position: relative;
+	text-decoration: none;
+	color: black;
 }
