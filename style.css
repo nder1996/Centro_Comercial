@@ -205,6 +205,10 @@ body{
 	top: -10px;
 }
 
+.nav-paginacion li a{
+		color: black;
+}
+
 .img-efect{
 	position: relative;
 	display: flex;
@@ -213,13 +217,34 @@ body{
 .img-efect img{
 	position: relative;
 	width: 93%;
+	cursor: pointer;
+	transition: opacity 1.5s ease-in-out;
 }
 
 
+#img-1{
+	position: relative;
+	background-image: url('../img-1.JPG');
+	width: 24%;
+	height: 295px;
+	top: 5px;
+}
 
+#img-1:hover{
+	background-image: url('../img-11.JPG');
+}
 
+#img-2{
+	position: relative;
+	background-image: url('../img-2.JPG');
+	width: 24%;
+	height: 295px;
+	top: 5px;
+}
 
-
+#img-2:hover{
+	background-image: url('../img-22.JPG');
+}
 
 
 
