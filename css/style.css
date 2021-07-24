@@ -1,0 +1,623 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+}
+
+
+.Div-Principal {
+    position: relative;
+    overflow: hidden;
+   /* height: 3480px;*/
+}
+
+.header-1 {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+
+    justify-self: center;
+    align-content: center;
+    height: 60px;
+    background-color: rgb(88, 25, 147) !important;
+}
+
+.header-1 form input {
+    position: relative;
+    width: 110%;
+}
+
+.header-1 .P-bienvenida {
+    position: relative;
+    width: 40%;
+    left: -3%;
+}
+
+.header-1 div p {
+    font-size: 1.5vw;
+    color: white !important;
+}
+
+.header-1 div i {
+    font-size: 1.9vw;
+}
+
+.header-1 div {
+    position: relative;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 50px;
+    width: 33%;
+}
+
+
+.header-1 .form {
+    position: relative;
+    width: 100%;
+}
+
+.header-1 .busqueda {
+    position: relative;
+    outline: none;
+    background-color: rgb(75, 19, 128);
+    border: 1px solid rgb(75, 19, 128);
+}
+
+.header-1 .busqueda::placeholder {
+    color: white !important;
+}
+
+
+.header-1 form i {
+    position: relative;
+    font-size: 1.5vw;
+    left: -15%;
+    top: 7px;
+}
+
+
+.header-1 i {
+    position: relative;
+    padding-left: 1.2vw;
+    color: white !important;
+    cursor: pointer;
+}
+
+.navbar {
+    position: relaive;
+    width: 100%;
+    height: 90px;
+    background-color: white !important;
+}
+
+.navbar .Logo {
+    position: relative;
+    padding-left: -10px;
+    width: 14%;
+    z-index: 50;
+}
+
+nav .Logo img {
+    position: relative;
+    left: 50%;
+    height: 50px;
+}
+
+
+.navbar div,
+.navbar ul {
+    position: relative;
+    background-color: rgb(255, 255, 255) !important;
+    z-index: 10;
+}
+
+.navbar ul li {
+    position: relative;
+    font-size: 1.2vw;
+    margin-left: 15px;
+
+}
+
+.slider {
+    position: relative;
+    left: 1px;
+}
+
+.slider video {
+    position: relative;
+    width: 100%;
+    left: -1px;
+}
+
+/*------------------------------------*/
+
+.card {
+    width: 100%;
+    height: 350px;
+    margin-bottom: 4%;
+
+}
+
+.afiliados .Afi {
+    background-color: rgb(101, 18, 150);
+}
+
+.afiliados .Local {
+    background-color: rgb(255, 178, 0);
+}
+
+
+.afiliados .img-card {
+    position: relative;
+    width: 50%;
+    left: 50.3%;
+    top: -65%;
+}
+
+.img-card img {
+    position: relative;
+    width: 100%;
+    height: 300px;
+}
+
+.card-body a {
+    position: relative;
+    background-color: rgb(255, 255, 255) !important;
+    color: black !important;
+}
+
+.card-body h3 {
+    color: white !important;
+    font-size: 25px;
+    width: 40%;
+}
+
+.card-body p {
+    color: white !important;
+    font-size: 25px;
+    width: 50%;
+}
+
+
+#afili {
+    position: relative;
+    top: -70%;
+
+}
+
+
+
+
+
+#lampara {
+    position: relative;
+    top: -339px;
+    left: 48%;
+}
+
+
+.Icon {
+    position: relative;
+    justify-content: space-between;
+    display: flex;
+    width: 92%;
+    top: -280px;
+    left: 5%;
+}
+
+.Icon div {
+    position: relative;
+    display: flex;
+
+}
+
+.Icon h4 {
+    position: relative;
+    font-size: 22px;
+    margin-left: 20px;
+    width: 80%;
+}
+
+.Icon p {
+    font-size: 13px;
+}
+
+.Icon i {
+    font-size: 60px;
+    color: rgb(88, 25, 147);
+}
+
+.Paginacion {
+    position: relative;
+    text-align: center;
+    top: -240px;
+    width: 100%;
+}
+
+.Paginacion h1 {
+    position: relative;
+    border-bottom: 5px solid black;
+    width: 50%;
+    left: 24%;
+}
+
+.Paginacion .btn-afiliados {
+    position: relative;
+    text-decoration: none;
+    color: white;
+    background-color: rgb(88, 25, 147);
+    padding: 10px;
+}
+
+
+.Paginacion .btn-afiliados i {
+    position: relative;
+    padding: 10px;
+    font-size: 15px;
+}
+
+.nav-paginacion {
+    position: relative;
+    left: 79%;
+    top: -10px;
+}
+
+.nav-paginacion li a {
+    color: black;
+}
+
+.img-efect {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.img-efect div {
+    position: relative;
+    transition: opacity 1.5s ease-in-out;
+    width: 53%;
+    cursor: pointer;
+    margin-left: 20px;
+}
+
+
+#img-1 {
+    position: relative;
+    background-image: url('../img/img-1.JPG');
+    width: 24%;
+    height: 295px;
+    top: 5px;
+}
+
+#img-1:hover {
+    background-image: url('../img/img-11.JPG');
+}
+
+#img-2 {
+    position: relative;
+    background-image: url('../img/img-2.JPG');
+    width: 24%;
+    height: 295px;
+    top: 5px;
+}
+
+#img-2:hover {
+    background-image: url('../img/img-22.JPG');
+}
+
+#img-3 {
+    position: relative;
+    background-image: url('../img/img-3.JPG');
+    width: 24%;
+    height: 295px;
+    top: 5px;
+}
+
+#img-3:hover {
+    background-image: url('../img/img-33.JPG');
+}
+
+#img-4 {
+    position: relative;
+    background-image: url('../img/img-4.JPG');
+    width: 24%;
+    height: 295px;
+    top: 5px;
+}
+
+#img-4:hover {
+    background-image: url('../img/img-44.JPG');
+}
+
+.info-2 {
+    position: relative;
+    height: 13%;
+
+}
+
+.info-2 .card-body h5 {
+    text-align: center;
+    font-size: 1.2vw;
+    color: black !important;
+    margin-bottom: 30px;
+}
+
+.info-2 p {
+    position: relative;
+    text-align: justify;
+    color: black !important;
+    font-size: 1.1vw;
+    width: 100%;
+}
+
+.card-info {
+    position: relative;
+    display: flex;
+    top: -200px;
+}
+
+.card {
+    box-shadow: 0 0 7px 1px silver;
+    margin-left: 20px;
+
+}
+
+.card a {
+    text-decoration: none;
+    color: black;
+}
+
+
+footer {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(88, 25, 147);
+    width: 100%;
+
+}
+
+footer div {
+    border: 5px solid red;
+    width: 33%;
+    overflow: hidden;
+    margin-left: 15px;
+    margin-top: 30px;
+    margin-bottom: 15px;
+}
+
+footer .img_logo{
+	text-align: right;
+}
+
+footer .img_logo img{
+	width: 65%;
+	height: 250px;
+	border: 5px solid black;
+}
+
+footer .info_footer{
+	text-align: center;
+	height: 50%;
+	
+}
+
+footer .info_footer h5{
+	color: white !important;
+	font-size: 17px;
+}
+
+footer .info_footer h6{
+	color: white !important;
+	font-size: 15px;
+}
+
+footer .info_footer img{
+	/*width: 80%;
+	height: 300px;*/
+}
+
+footer .info_footer .info{
+	display: flex;
+	justify-content: center;
+	width: 93%;
+	flex-direction: row;
+	flex-wrap: wrap;
+	height: 90%;
+}
+
+footer .info_footer .info h5{
+	position: relative;
+	top: -10px;
+}
+
+footer .info_footer .info h6{
+	position: relative;
+	top: -10px;
+}
+
+footer .info_footer .info div{
+	width: 46%;
+	font-size: 15px;
+	color: white !important;
+	height: 50%;
+	border: 5px solid gray;
+}
+
+footer .img-london{
+	position: relative;
+	justify-content: center;
+	background-color:transparent;
+	border-radius: 10px ;
+	
+}
+
+footer .img-london div{
+	position: relative;
+	text-align: center;
+	background-color: white !important;
+	border-radius: 10px ;
+	height: 300px;
+	width: 70%;
+	font-size: 15px;
+
+}
+
+footer .img-london div a{
+	text-decoration: none;
+	color: black;
+}
+
+
+
+
+/*
+
+footer .Logo-footer{
+	position: relative;
+	text-align: right;
+	width: 30%;
+
+}
+
+footer .Logo-footer img{
+	width: 60%;
+	border: 5px solid red;
+	height: 50%;
+}
+
+footer div{
+	border: 5px solid black;
+}
+
+footer .Info-footer{
+	position: relative;
+	text-align: center;
+	width: 40%;
+}
+
+footer .Info-footer h5{
+	position: relative;
+	font-size: 16px;
+	color: white;
+	width: 100%;
+
+}
+
+footer .Info-footer .Dirreccion{
+	position: relative;
+	justify-content: center;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+footer .Info-footer .Dirreccion div{
+	position: relative;
+	display: flex;
+	margin-left: 50px;
+	left: -5%;
+	color: white;
+}
+
+footer h5{
+	color: white;
+	font-size: 17px;
+	margin-bottom: 19px;
+}
+
+footer h6{
+	color: white;
+	font-size: 13px;
+}
+
+footer .div_london{
+	position: relative;
+	border: 5px solid red;
+}
+
+footer .img-london{
+	position: relative;
+	text-align: center;
+	background-color: white !important;
+	border-radius: 10px ;
+	width: 100%;
+	height: 270px;
+}
+
+footer .img-london h1{
+	position: relative;
+	color: rgb(84, 89, 95) !important;
+	font-size: 16px;
+}
+
+footer .img-london a{
+	position: relative;
+	text-decoration: none;
+	color: black;
+}
+
+*/
+@media only screen and (max-width: 720px) {
+
+    .header-1 {
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+        height: 110px;
+        width: 100%;
+    }
+
+    .header-1 p {
+        display: none;
+    }
+
+    .header-1 div i {
+        font-size: 3.5vw;
+        margin-bottom: 15px;
+    }
+
+    .header-1 .search {
+        position: relative;
+        width: 90%;
+
+    }
+
+    .header-1 .search i {
+        position: relative;
+        padding-left: 25px;
+
+    }
+
+
+
+    nav .Logo img {
+        left: 10%;
+    }
+
+    footer {
+        position: relative;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(88, 25, 147);
+        width: 100%;
+
+    }
+
+    footer div {
+        border: 5px solid red;
+        width: 490px;
+        height: 355px;
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 15px;
+    }
+
+
+
+
+}
