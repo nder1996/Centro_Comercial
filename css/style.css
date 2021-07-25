@@ -8,7 +8,7 @@ body {
 .Div-Principal {
     position: relative;
     overflow: hidden;
-   /* height: 3480px;*/
+    /* height: 3480px;*/
 }
 
 .header-1 {
@@ -133,6 +133,114 @@ nav .Logo img {
 
 /*------------------------------------*/
 
+
+.afiliados{
+    margin-bottom: 40px;
+}
+
+.afiliados .row{
+    
+}
+
+.afiliados .row .card{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.afiliados .row .card div{
+    width: 53%;
+    color: white;
+}
+
+.afiliados .row .card div img{
+    width: 100%;
+}
+
+
+
+
+
+/*
+
+.afiliados .row .card .card-body{
+    border: 5px solid blue;
+    height: 300px;
+}
+
+
+
+/*
+.Afiliados {
+    border: 5px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.Afiliados .Afiliado {
+    display: flex;
+    width: 48%;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    color: white !important;
+    margin-left: 20px;
+    overflow: hidden;
+}
+
+.Afiliados .Afiliado div {
+    margin-left: 20px;
+    border: 4px solid red;
+    margin-top: 1px;
+    width: 46.5%;
+}
+
+.Afiliados .Afiliado div h1 {
+    font-size: 2vw;
+    margin-bottom: 25px;
+}
+
+.Afiliados .Afiliado div p {
+    font-size: 1.5vw;
+}
+
+
+.Afiliados .Afiliados_img {
+    position: relative;
+    text-align: right;
+    width: 80%;
+
+}
+
+.Afiliados .Afiliados_img img {
+    position: relative;
+    text-align: right;
+    width: 80%;
+
+}
+
+/*
+.Afiliados .Afiliado_Amarillo {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: rgb(255, 178, 0);
+
+}
+
+Afili
+
+
+
+.Afiliados .Afiliado_Amarillo .Afiliados_img{
+    position: relative;
+    width: 100%;
+}
+
+
+/*
 .card {
     width: 100%;
     height: 350px;
@@ -151,6 +259,7 @@ nav .Logo img {
 
 .afiliados .img-card {
     position: relative;
+    border: 5px solid red;
     width: 50%;
     left: 50.3%;
     top: -65%;
@@ -196,7 +305,7 @@ nav .Logo img {
     top: -339px;
     left: 48%;
 }
-
+*/
 
 .Icon {
     position: relative;
@@ -381,7 +490,6 @@ footer {
 }
 
 footer div {
-    border: 5px solid red;
     width: 33%;
     overflow: hidden;
     margin-left: 15px;
@@ -389,178 +497,89 @@ footer div {
     margin-bottom: 15px;
 }
 
-footer .img_logo{
-	text-align: right;
+footer .img_logo {
+    text-align: right;
 }
 
-footer .img_logo img{
-	width: 65%;
-	height: 250px;
-	border: 5px solid black;
+footer .img_logo img {
+    width: 65%;
+    height: 250px;
 }
 
-footer .info_footer{
-	text-align: center;
-	height: 50%;
-	
-}
-
-footer .info_footer h5{
-	color: white !important;
-	font-size: 17px;
-}
-
-footer .info_footer h6{
-	color: white !important;
-	font-size: 15px;
-}
-
-footer .info_footer img{
-	/*width: 80%;
-	height: 300px;*/
-}
-
-footer .info_footer .info{
-	display: flex;
-	justify-content: center;
-	width: 93%;
-	flex-direction: row;
-	flex-wrap: wrap;
-	height: 90%;
-}
-
-footer .info_footer .info h5{
-	position: relative;
-	top: -10px;
-}
-
-footer .info_footer .info h6{
-	position: relative;
-	top: -10px;
-}
-
-footer .info_footer .info div{
-	width: 46%;
-	font-size: 15px;
-	color: white !important;
-	height: 50%;
-	border: 5px solid gray;
-}
-
-footer .img-london{
-	position: relative;
-	justify-content: center;
-	background-color:transparent;
-	border-radius: 10px ;
-	
-}
-
-footer .img-london div{
-	position: relative;
-	text-align: center;
-	background-color: white !important;
-	border-radius: 10px ;
-	height: 300px;
-	width: 70%;
-	font-size: 15px;
+footer .info_footer {
+    text-align: center;
+    height: 50%;
 
 }
 
-footer .img-london div a{
-	text-decoration: none;
-	color: black;
+footer .info_footer h5 {
+    color: white !important;
+    font-size: 17px;
+}
+
+footer .info_footer h6 {
+    color: white !important;
+    font-size: 15px;
+}
+
+footer .info_footer img {
+    /*width: 80%;
+    height: 300px;*/
+}
+
+footer .info_footer .info {
+    display: flex;
+    justify-content: center;
+    width: 93%;
+    flex-direction: row;
+    flex-wrap: wrap;
+    height: 90%;
+}
+
+footer .info_footer .info h5 {
+    position: relative;
+    top: -10px;
+}
+
+footer .info_footer .info h6 {
+    position: relative;
+    top: -10px;
+}
+
+footer .info_footer .info div {
+    width: 46%;
+    font-size: 15px;
+    color: white !important;
+    height: 50%;
+    margin-bottom: 40px;
+}
+
+footer .img-london {
+    position: relative;
+    justify-content: center;
+    background-color: transparent;
+    border-radius: 10px;
+
+}
+
+footer .img-london div {
+    position: relative;
+    text-align: center;
+    background-color: white !important;
+    border-radius: 10px;
+    height: 300px;
+    width: 70%;
+    font-size: 15px;
+
+}
+
+footer .img-london div a {
+    text-decoration: none;
+    color: black;
 }
 
 
 
-
-/*
-
-footer .Logo-footer{
-	position: relative;
-	text-align: right;
-	width: 30%;
-
-}
-
-footer .Logo-footer img{
-	width: 60%;
-	border: 5px solid red;
-	height: 50%;
-}
-
-footer div{
-	border: 5px solid black;
-}
-
-footer .Info-footer{
-	position: relative;
-	text-align: center;
-	width: 40%;
-}
-
-footer .Info-footer h5{
-	position: relative;
-	font-size: 16px;
-	color: white;
-	width: 100%;
-
-}
-
-footer .Info-footer .Dirreccion{
-	position: relative;
-	justify-content: center;
-	display: flex;
-	flex-direction: row;
-	flex-wrap: wrap;
-}
-
-footer .Info-footer .Dirreccion div{
-	position: relative;
-	display: flex;
-	margin-left: 50px;
-	left: -5%;
-	color: white;
-}
-
-footer h5{
-	color: white;
-	font-size: 17px;
-	margin-bottom: 19px;
-}
-
-footer h6{
-	color: white;
-	font-size: 13px;
-}
-
-footer .div_london{
-	position: relative;
-	border: 5px solid red;
-}
-
-footer .img-london{
-	position: relative;
-	text-align: center;
-	background-color: white !important;
-	border-radius: 10px ;
-	width: 100%;
-	height: 270px;
-}
-
-footer .img-london h1{
-	position: relative;
-	color: rgb(84, 89, 95) !important;
-	font-size: 16px;
-}
-
-footer .img-london a{
-	position: relative;
-	text-decoration: none;
-	color: black;
-}
-
-*/
 @media only screen and (max-width: 720px) {
 
     .header-1 {
@@ -592,11 +611,56 @@ footer .img-london a{
 
     }
 
-
-
     nav .Logo img {
         left: 10%;
     }
+
+    /*
+    .Afiliados {
+        border: 5px solid red;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+
+    .Afiliados div {
+        position: relative;
+        border: 5px solid black;
+        width: 48%;
+         height: 300px;
+        margin-left: 20px;
+        overflow: hidden;
+    }
+
+    .Afiliados .Afiliado_Morado {
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        flex-wrap: wrap;
+        background-color: rgb(101, 18, 150);
+        color: white !important;
+    }
+
+    .Afiliados .Afiliado_Morado div {
+       border: 5px solid red;
+        margin-left: 20px;
+        margin-top: 1px;
+        width: 47%;
+        height: 95%;
+
+    }
+
+    /*
+.Afiliados .Afiliado_Morado img{
+    position: relative;
+    width: 53%;
+
+}*/
+
+    .Afiliados .Afiliado_Amarillo {
+        background-color: rgb(255, 178, 0);
+    }
+
 
     footer {
         position: relative;
@@ -609,7 +673,6 @@ footer .img-london a{
     }
 
     footer div {
-        border: 5px solid red;
         width: 490px;
         height: 355px;
         margin-left: 15px;
