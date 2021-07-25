@@ -204,12 +204,14 @@ nav .Logo img {
 
 .Paginacion {
     position: relative;
-    border: 5px solid yellow;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid red;
     text-align: center;
     top: -240px;
     width: 100%;
     overflow: hidden;
-   /* height: 180%;*/
+
 }
 
 .Paginacion h1 {
@@ -225,6 +227,8 @@ nav .Logo img {
     color: white;
     background-color: rgb(88, 25, 147);
     padding: 10px;
+    margin-top: 70px;
+
 }
 
 
@@ -236,8 +240,11 @@ nav .Logo img {
 
 .nav-paginacion {
     position: relative;
-    margin-top: 10px;
-    top: -10px;
+    text-align: left;
+ 
+    width: 100%;
+    height: 50px;
+    border: 5px solid red;
 }
 
 .nav-paginacion li a {
@@ -246,8 +253,7 @@ nav .Logo img {
 
 .img-efect {
     position: relative;
-    border: 5px solid black;
-    justify-content:center;
+    justify-content: center;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -257,12 +263,11 @@ nav .Logo img {
 
 .img-efect .img-div {
     position: relative;
-    border: 5px solid silver;
     margin-left: 20px;
     margin-top: 20px;
     width: 270px;
     cursor: pointer;
-    height: 370px;
+    height: 360px;
     top: -13px;
 }
 
@@ -309,12 +314,8 @@ nav .Logo img {
 }
 
 
-.Paginacion .btn-afiliados {
-    margin-top: 80px;
-    margin-bottom: 40px;
-}
 
-.card-info{
+.card-info {
     position: relative;
     justify-content: center;
     display: flex;
@@ -324,23 +325,33 @@ nav .Logo img {
     top: -40px;
 }
 
+.card-body a {
+    text-decoration: none;
+    color: black;
+}
+
+.card-info a {
+    text-decoration: none;
+    color: black;
+}
+
 
 /*-------EFECTO PARALLAX*/
 
-.Principal{
+.Principal {
     display: flex;
     position: relative;
     justify-content: center;
     align-items: center;
     text-align: center;
-  
+
 }
 
-.Efecto_Parallax{
+.Efecto_Parallax {
     display: flex;
     height: 500px;
     width: 100%;
-    background-image:url('../img/parallax.jpg');
+    background-image: url('../img/parallax.jpg');
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
@@ -350,7 +361,7 @@ nav .Logo img {
 
 }
 
-.Efecto_Parallax div{
+.Efecto_Parallax div {
     position: relative;
     display: flex;
     flex-direction: column;
@@ -360,25 +371,29 @@ nav .Logo img {
     background-color: transparent;
     width: 80%;
     height: 400px;
-    color:white;
+    color: white;
 }
 
-.Efecto_Parallax div h1{
+.Efecto_Parallax div h1 {
+    position: relative;
     width: 74%;
     font-size: 4vw;
-    background-color: rgb(0, 0, 0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
+
+
 }
 
-.Efecto_Parallax div h2{
+.Efecto_Parallax div h2 {
     width: 33%;
     font-size: 3vw;
-    background-color: rgb(0, 0, 0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
+    margin-top: 50px;
 }
 
-.Efecto_Parallax div p{
+.Efecto_Parallax div p {
     width: 30%;
     font-size: 1.2vw;
-    background-color: rgb(0, 0, 0,0.5);
+    background-color: rgb(0, 0, 0, 0.5);
 }
 
 
@@ -415,10 +430,6 @@ nav .Logo img {
 
 }
 
-.card a {
-    text-decoration: none;
-    color: black;
-}
 
 
 footer {
@@ -556,51 +567,8 @@ footer .img-london div a {
         left: 10%;
     }
 
-    /*
-    .Afiliados {
-        border: 5px solid red;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
 
-    .Afiliados div {
-        position: relative;
-        border: 5px solid black;
-        width: 48%;
-         height: 300px;
-        margin-left: 20px;
-        overflow: hidden;
-    }
 
-    .Afiliados .Afiliado_Morado {
-        display: flex;
-        justify-content: center;
-        flex-direction: row;
-        flex-wrap: wrap;
-        background-color: rgb(101, 18, 150);
-        color: white !important;
-    }
-
-    .Afiliados .Afiliado_Morado div {
-       border: 5px solid red;
-        margin-left: 20px;
-        margin-top: 1px;
-        width: 47%;
-        height: 95%;
-
-    }
-
-    /*
-.Afiliados .Afiliado_Morado img{
-    position: relative;
-    width: 53%;
-
-}*/
-
-    .Afiliados .Afiliado_Amarillo {
-        background-color: rgb(255, 178, 0);
-    }
 
 
     footer {
