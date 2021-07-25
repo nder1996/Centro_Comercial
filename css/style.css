@@ -324,6 +324,66 @@ nav .Logo img {
     top: -40px;
 }
 
+
+/*-------EFECTO PARALLAX*/
+
+.Principal{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  
+}
+
+.Efecto_Parallax{
+    display: flex;
+    height: 500px;
+    width: 100%;
+    background-image:url('../img/parallax.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.Efecto_Parallax div{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 10px solid white;
+    background-color: transparent;
+    width: 80%;
+    height: 400px;
+    color:white;
+}
+
+.Efecto_Parallax div h1{
+    width: 74%;
+    font-size: 4vw;
+    background-color: rgb(0, 0, 0,0.5);
+}
+
+.Efecto_Parallax div h2{
+    width: 33%;
+    font-size: 3vw;
+    background-color: rgb(0, 0, 0,0.5);
+}
+
+.Efecto_Parallax div p{
+    width: 30%;
+    font-size: 1.2vw;
+    background-color: rgb(0, 0, 0,0.5);
+}
+
+
+/*-------EFECTO PARALLAX*/
+
 .info-2 {
     position: relative;
     height: 13%;
